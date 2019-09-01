@@ -1,0 +1,305 @@
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  
+  
+}
+.topo {
+  height: 40px;
+  background-color: #333;
+  color: white;
+  
+}
+
+.topoInto {
+  margin: auto;
+  max-width: 1040px;
+  width: 100%;
+  height: 40px;
+}
+
+.topoLeft {
+  height: 40px;
+  width: 50%;
+  float: left;
+}
+
+.topoRigth {
+  height: 32px;
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin-top: 8px;
+}
+
+.topoLeft ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.topoLeft li {
+  height: 30px;
+  line-height: 40px;
+  float: left;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.topoLeft a{
+    text-decoration: none;
+    color: white;
+}
+
+.topoLeft li .ativo{
+    color: aqua;
+}
+
+.topoRigth ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+  }
+  
+  .topoRigth li {
+    height: 30px;
+    line-height: 40px;
+    float: right;
+    margin-left: 8px;
+    margin-right: 8px;
+
+  }
+
+  .topoRigth a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    height: 30px;
+    
+}
+
+.topoBusca{
+  width: 110px;
+  height: 26px;
+  outline: 0px;
+  
+}
+
+.topoRigth a{
+  float: right;
+}
+
+.topoRigth input{
+  float: right;
+  margin-right: 3px;
+}
+.topoRigth img{
+  margin-right: 3px;
+}
+
+
+
+.busca{
+  height: 18px;
+}
+
+.topo2{
+  height: 95px;
+  color: #000;
+}
+
+.topoInto2 {
+  width: 100%;
+  max-width: 1040px;
+  height: 95px;
+  margin:auto;
+}
+
+.logo{
+  width: 230px;
+  height: 60px;
+  float: left;
+  margin-top: 35px;
+ 
+}
+
+.topo2 .banner{
+  width: 650px;
+  height: 80px;
+  float:right;
+  margin-top: 7px;
+  background-color: red;
+}
+
+.menu{
+height: 40px;
+
+}
+
+.menuInt{
+width: 100%;
+max-width: 1040px;
+height: 40px;
+margin:auto;
+background-color: red;
+
+}
+
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+
+.menu li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+  
+}
+
+.menu a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.menu li:hover .subMenu{
+  display: block;
+}
+
+.subMenu{
+  width: 150px;
+  position:absolute;
+  display: none;
+}
+.subMenuItem{
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  
+  background-color: red;
+}
+
+.subMenuItem:hover{
+  background-color: #f76c56;
+}
+
+.ultimasNoticias{
+height: 40px;
+}
+
+.ultimasNoticiasInt{
+  width: 100%;
+  max-width: 1040px;
+  margin:auto;
+  height: 40px;
+}
+
+.ultimasNoticiasArea{
+  height: 28px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.ultNoticiasTitulo{
+  background-color: red;
+  color: #FFF;
+  height: 28px;
+  display: inline-block;
+  line-height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.ultNoticiasNoticias{
+  color: #000;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 7px;
+  font-family: Arial;
+  font-weight: bolder;
+  
+}
+
+.containerInt{
+  width: 100%;
+  max-width: 1040px;
+  margin:auto;
+  
+  
+}
+
+.leftSide{
+  width: 753px ;
+  float: left;
+  
+}
+
+.rightSide{
+  width: 275px;
+  min-height: 200px;
+  float: right;
+  margin-left: 12px;
+
+}
+
+.widget{
+background-color: #FFF;
+border: 1px solid #CCC;
+margin-bottom: 10px;
+}
+
+.widget_titulo{
+  height: 30px;
+  border-bottom: 1px solid #CCC;
+  background-color: #DDD;
+  line-height: 30px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.widget_conteudo{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.noticiaItem{
+font-size: 14px;
+margin: 0px 10px;
+padding: 10px 0px;
+text-align: left;
+border-bottom: 1px solid #CCC;
+}
+
+.noticiaItem a{
+  text-decoration: none;
+  color: #000;
+}
+
+.slideShow{
+height: 335px;
+background-color: #CCC;
+overflow: hidden;
+}
+
+.slideShowArea{
+  height: 335px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
