@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portal</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js"></script>
+    <title>Portal</title>
+    
   </head>
-  <body onload="slide1()">
+  <body>
 <div class="topo">
         <div class="topoInto">
                 <div class="topoLeft">
@@ -16,11 +18,6 @@
                         <li><a href="quem-smos">Quem Somos</a></li>              
                         <li><a href="anuncie-aqui">Anuncie Aqui</a></li>
                         <li><a href="contatos">Contatos</a></li>
-                        
-                        
-            
-                        
-                       
                     </ul>
                 </div>
                 <div class="topoRigth">
@@ -31,8 +28,7 @@
                         <a href=""><img src="assets/images/google_plus.png" alt="" width="26" height="26"></a>
                         <a href=><img src="assets/images/facebook.png" alt="" width="26" height="26"></a>
                         <a href=""><img src="assets/images/Twitter2.png" alt="" width="26" height="26"></a>
-                        <a href=""><img src="assets/images/youtube.png" alt="" width="26" height="26"></a>
-                        
+                        <a href=""><img src="assets/images/youtube.png" alt="" width="26" height="26"></a>                      
                    </ul>                
                 </div>
         </div>
@@ -86,7 +82,6 @@
         </ul>
     </div>
   </div>
-    <div>
       <div class="ultimasNoticias">
         <div class="ultimasNoticiasInt">
           <div class="ultimasNoticiasArea">
@@ -98,13 +93,136 @@
       <div class="container">
         <div class="containerInt">
           <div class="leftSide">
-            <div class="slideShow">
+            <div class="slideShow" id="slideShow">
+              <div class="slideBolinhas">
+                <div class="bolinha" onclick="mudarSlide(0)"></div>
+                <div class="bolinha" onclick="mudarSlide(1)"></div>
+                <div class="bolinha" onclick="mudarSlide(2)"></div>
+                <div class="bolinha" onclick="mudarSlide(3)"></div>
+              </div> <!--Fechamento div slideBolinhas-->
               <div class="slideShowArea" >
-                <div class="slides">
-                    <img src="/assets/images/Barack Obama.jpg"  id="banner" width="100%">
+                <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                    <div class="slideInfo">
+                      <div class="slideInfoTitulo">Titulo do Slide 01:</div>
+                      <div class="slideInfoSubTitulo">SubTitulo do Slide</div>
+                    </div>
                 </div>
+                <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                  <div class="slideInfo">
+                    <div class="slideInfoTitulo">Titulo do Slide 02:</div>
+                    <div class="slideInfoSubTitulo">SubTitulo do Slide</div>
+                  </div>
+              </div>
+             
+              <div class="slide"  style="background-image:url('http://www.google.com.br/google.jpg')">
+                <div class="slideInfo">
+                  <div class="slideInfoTitulo">Titulo do Slide 03:</div>
+                  <div class="slideInfoSubTitulo">SubTitulo do Slide</div>
+                </div>
+            </div>
+            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+              <div class="slideInfo">
+                <div class="slideInfoTitulo">Titulo do Slide 04:</div>
+                <div class="slideInfoSubTitulo">SubTitulo do Slide</div>
               </div>
             </div>
+              </div>
+            </div>
+            <div class="widget">
+                <div class="widget_titulo">NOTÍCIAS</div>
+                <div class="widget_conteudo">
+
+                 <div class="noticiaArea01">
+                    <div class="noticiaItemArea01 noticiaItemBig">
+                        <div class="noticiaImg">
+                          <img src="" width="80" height="80">
+                        </div>
+                        <div class="noticiaTitulo">Algum titulo Qualquer para que 
+                          mostre ao usuário como irá ficar.</div>
+                        <div class="noticiaSubTitulo">500 comentários</div>
+                    </div>
+                 </div> <!--Fim da div Noticia area 01-->
+                 
+                 <div class="noticiaArea02">
+                  <div class="noticiaItemArea02">
+                      <div class="noticiaImg">
+                        <img src="" width="80" height="80">
+                      </div>
+                      <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                      <div class="noticiaSubTitulo">500 comentários</div>
+                  </div>
+                  <div class="noticiaItemArea02">
+                      <div class="noticiaImg">
+                        <img src="" width="80" height="80">
+                      </div>
+                      <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                      <div class="noticiaSubTitulo">500 comentários</div>
+                  </div>
+                  <div class="noticiaItemArea02">
+                      <div class="noticiaImg">
+                        <img src="" width="80" height="80">
+                      </div>
+                      <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                      <div class="noticiaSubTitulo">500 comentários</div>
+                  </div>    
+                  <div class="noticiaItemArea02">
+                      <div class="noticiaImg">
+                        <img src="" width="80" height="80">
+                      </div>
+                      <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                      <div class="noticiaSubTitulo">500 comentários</div>
+                  </div>             
+                 </div> <!--Fim da div Noticia area 02-->                 
+                 <div style="clear: both"></div>
+                </div>
+              </div>
+              <div class="widget">
+                  <div class="widget_titulo">ESPORTES</div>
+                  <div class="widget_conteudo">
+  
+                   <div class="noticiaArea01">
+                      <div class="noticiaItemArea01 noticiaItemBig">
+                          <div class="noticiaImg">
+                            <img src="" width="80" height="80">
+                          </div>
+                          <div class="noticiaTitulo">Algum titulo Qualquer para que 
+                            mostre ao usuário como irá ficar.</div>
+                          <div class="noticiaSubTitulo">500 comentários</div>
+                      </div>
+                   </div> <!--Fim da div Noticia area 01-->                   
+                   <div class="noticiaArea02">
+                    <div class="noticiaItemArea02">
+                        <div class="noticiaImg">
+                          <img src="" width="80" height="80">
+                        </div>
+                        <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                        <div class="noticiaSubTitulo">500 comentários</div>
+                    </div>
+                    <div class="noticiaItemArea02">
+                        <div class="noticiaImg">
+                          <img src="" width="80" height="80">
+                        </div>
+                        <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                        <div class="noticiaSubTitulo">500 comentários</div>
+                    </div>
+                    <div class="noticiaItemArea02">
+                        <div class="noticiaImg">
+                          <img src="" width="80" height="80">
+                        </div>
+                        <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                        <div class="noticiaSubTitulo">500 comentários</div>
+                    </div>    
+                    <div class="noticiaItemArea02">
+                        <div class="noticiaImg">
+                          <img src="" width="80" height="80">
+                        </div>
+                        <div class="noticiaTitulo">Algum titulo Qualquer</div>
+                        <div class="noticiaSubTitulo">500 comentários</div>
+                    </div>             
+                   </div> <!--Fim da div Noticia area 02-->
+                   <div style="clear: both"></div>
+                  </div>
+                </div>
           </div>
           <div class="rightSide">
             <div class="widget">
@@ -130,7 +248,7 @@
                     </a>
                 </div>
                <div class="noticiaItem">
-                      <a href="./">
+                      <a href="./"></a>
                   Lorem Ipsum é simplesmente texto fictício da indústria 
                   tipográfica e de impressão. O Lorem Ipsum tem sido o texto 
                   fictício padrão da indústria desde os anos 1500, quando uma 
@@ -183,9 +301,7 @@
               </div>
             </div>
           </div>
-          
+          </div>
         </div>
-      </div>
-    <script src="assets/js/portal.js"></script>
   </body>
 </html>
